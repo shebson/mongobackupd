@@ -1,0 +1,2 @@
+0 * * * * python /backupd/backup.py
+@reboot python /backupd/backup.py

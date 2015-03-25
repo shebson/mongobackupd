@@ -1,0 +1,4 @@
+env
+env-py3
+*.pyc
+.DS_Store
