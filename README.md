@@ -1,5 +1,7 @@
 # mongobackupd
 
+[![Build Status](https://travis-ci.org/shebson/mongobackupd.svg?branch=master)](https://travis-ci.org/shebson/mongobackupd)
+
 `mongobackupd` performs automated backups of MongoDB replica sets deployed on
 EC2. mongobackupd finds a secondary member of the replica set and snapshots
 the volume's EBS volume. It also removes stale backups according to retention
